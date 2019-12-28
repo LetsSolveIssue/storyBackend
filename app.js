@@ -23,7 +23,7 @@ mongoose.connection.on("error", err => {
 app.use(express.static(path.join(__dirname, "src")));
 
 
-app.use(cors({credentials: true, origin: 'http://localhost:3006'}));
+app.use(cors({credentials: true, origin: 'https://serene-jang-ddf545.netlify.com'}));
 //middleware
 app.use(morgan("dev"));
 //app.use(myOwnMiddleWare);
