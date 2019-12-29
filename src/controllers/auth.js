@@ -87,6 +87,7 @@ module.exports = {
             }
 
         } catch (e) {
+            console.log(e);
             res.json({
                 error: e
             })
